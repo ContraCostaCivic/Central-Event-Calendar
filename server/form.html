@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="w-75 p-3">
+            <h1>Event Submission Form</h1>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Event Name</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter Event Name">
+                </div>
+
+                <div class="dropdown">
+                    <label for="exampleInputPassword1">Event Category</label>
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose one
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Board Meeting</a>
+                        <a class="dropdown-item" href="#">Entertainment</a>
+                        <a class="dropdown-item" href="#">Volunteering</a>
+                    </div>
+                </div>
+                <br>
+
+
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Event Description</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1"
+                        placeholder="Please include organization name">
+
+                </div>
+                <br>
+
+
+                <label for="exampleInputPassword1">When</label>
+
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Recurring Event</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">All Day</label>
+                </div>
+
+
+                <label for="exampleInputPassword1">Event starts at</label>
+                <input class="form-control" type="datetime-local" placeholder="Start">
+                <label for="exampleInputPassword1">to</label>
+                <input class="form-control" type="datetime-local" placeholder=End>
+                <br><br>
+
+
+
+                <label for="Location">Location</label>
+                <form>
+                    <div class="form-row">
+                        <div class="col-7">
+                            <input type="text" class="form-control" placeholder="Street">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="City">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="State">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Zip">
+                        </div>
+                    </div>
+                </form>
+                <br><br>
+
+                <label for="Contact Info">Contact Information</label>
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Organization">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                </form>
+                <br><br><br>
+
+
+
+
+
+
+
+                <button type="submit" class="btn btn-primary">Submit Event</button>
+            </form>
+
+        </div>
+
+        <!-- bootstrap dependencies-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
